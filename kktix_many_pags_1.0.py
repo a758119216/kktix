@@ -10,8 +10,7 @@ from selenium.webdriver.common.by import By
 from selenium.webdriver.support import expected_conditions as EC
 import time
 
-# desired_capabilities = DesiredCapabilities.CHROME  # 修改页面加载策略
-# desired_capabilities["pageLoadStrategy"] = "none"  # 注释这两行会导致最后输出结果的延迟，即等待页面加载完成再输出
+
 chrome_options = Options()
 chrome_options.add_experimental_option("debuggerAddress", "127.0.0.1:9222")
 chrome_driver = "C:\Program Files (x86)\Google\Chrome\Application\chromedriver.exe" #chromedriver的路徑
