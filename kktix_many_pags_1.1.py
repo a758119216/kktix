@@ -17,7 +17,7 @@ chrome_options.add_experimental_option("debuggerAddress", "127.0.0.1:9222")
 chrome_driver = "C:\Program Files (x86)\Google\Chrome\Application\chromedriver.exe" #chromedriver的路徑
 driver = webdriver.Chrome(chrome_driver, options=chrome_options)
 
-
+分支Test1
 # --------------------------------座位選擇函式--------------------------------------------------------------------------------------------------#
 def onepart():
     # js = "var q=document.documentElement.scrollTop=100000"
